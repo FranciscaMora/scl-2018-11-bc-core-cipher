@@ -1,15 +1,103 @@
-<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>Cifrado Cesar</title> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="/home/laboratoriad310/Escritorio/LaboratoriaFran/cifrado cesar/Symbol_venus.svg">
+     <link href="https://fonts.googleapis.com/css?family=Josefin+Slab|Niconne" rel="stylesheet"> 
+     <link rel = "stylesheet" href = "style.css">
   </head>
   <body>
-    <div id="root">
-      <h1>Hola mundo!</h1>
+        
+    <div id="pageZero">
+      
+      <a target="blank" href="https://conlasamigasyenlacasa.tumblr.com">Con Las Amigas Y En La Casa</a>
+      <a target="blank" href="https://colectivotijeras.wordpress.com">Colectivo Tijeras</a>
+      <a target="blank" href="https://www.infoabortochile.org">Línea Aborto Libre</a>
+      <a target="blank" href="https://womenhelp.org">Women Help Women</a>
+      <div id="mainTitle">
+      <h1>Para las amigas</h1>
+      </div>
+      <div id="slogan">
+      <p >Por mi y por todas mis compañeras</p>
+      </div>
+      <div id="botonInicio">
+      <button type="button" class="btn" id="btnInstructions" onclick="functionInstrucciones()">Instrucciones</button>
+      <button type="button" class="btn" id="btnStart" onclick="functionStart()">Comenzar</button>
+      </div>
     </div>
+
+
+
+
+     <div id="instructions">
+      
+       <div id="instructions1">
+            <h1 class=title2>Nuestro objetivo. </h1>
+        <p class="intro"> El acceso a productos de salud reproductiva (comos los anticonceptivos y el aborto con  medicamentos)y a la información confiable empodera a las mujeres que comparten y a las mujeres que reciben el conocimiento.
+          Es por eso que las feministas de todo el mundo están cooperando para poner éstos en manos de las mujeres, donde deberían estar.
+             
+            <br>
+            </br>
+            Como sabemos que la situacion actual no permite la libre comunicacion entre mujeres y organizaciones abortistas es que te ofrecemos <strong>Para Las Amigas</strong>, una AppWeb que permite cifrar y descifrar mensajes con el fin de mantener la confidencialidad y seguridad de las partes que aportan a la libertad de derechos reproductivos.
+        </p>
+      <img id="pañuelosVerdes" src="/home/laboratoriad310/Escritorio/LaboratoriaFran/cifrado cesar/pañuelos verdes.jpg" alt="PAñuelos Verdes">
+        <div id="intro2">
+        <p>¿Como funciona?</p>
+        <p>¡Muy facil!</p>
+        </div>
+        <div id="intro2P">
+        <p>Encontraras un cuadro de texto donde podras ingresar tu mensaje,ademas de tener la opcion de elegir la dificultad de cifrado.
+            Luego, podras elegir entre los botones <strong>Cifrar</strong> y <strong>Descifrar</strong> dependiendo de tu necesidad.
+            Para finalizar, tendras las opciones de <strong>Copiar</strong> y <strong>Enviar por correo electronico.</strong>
+            <br>
+            </br>
+            <i>Para Las Amigas</i> puede traducir todos los mensajes que incluyan datos alfabeticos desde la A, hasta la Z a excepcion de la Ñ.Además, no soporta valores de puntuacion como :;,.-_¿!?¡*+ entre otros
+        </p>
+        </div>
+        </div>
+        <button type="button" id="btnStart2" onclick="functionStart2()">Comenzar</button>
+    </div>
+        <div id="recomendations">
+          <p><i>Para Las Amigas</i> puede traducir todos los mensajes que incluyan datos alfabeticos desde la A, hasta la Z a excepcion de la Ñ.Además, no soporta valores de puntuacion como :;,.-_¿!?¡*+ entre otros, asi que por favor evita usarlos para obtener los resultados deseados.</p>
+        </div>
+     
+    <!--Botón que da paso a pageOne-->   
+ 
+    
+    <!--Incio pageOne, codificar/decodificar-->
+    <div id="pageOne">
+      <button type="button" id="btnHome" onclick="functionHome()"> Volver a inicio</button>
+    <h1>¡Comencemos!</h1>
+      <br>
+      </br>
+    <form>
+      <div id="offset">
+ <label for="levels">Dificultad</label>
+ <input type="number" id="difficulty"class="offsetBox" name="levels" min="1">
+      </div>
+      <br>
+      </br>
+    <label for="code">Ingresa tu texto</label>
+    <input type="text" placeholder="Ingresa tu texto" maxlength="1000" id="codeBox" class="box"></input>
+      <label for="decode">Traducción</label>
+      <input type="text" id="decodeBox" class="box"></input>
+      <br>
+      </br>
+      <button type="button" id="btnCode" onclick="functionCode()"> Codificar </button>
+    <button type="button" id="btnDecode" onclick="functionDecode()"> Decodificar </button>
+    </form>
+    <br>
+    </br>
+    <button type="button" id="btnClear" onclick="functionClear()">Limpiar</button>
+<div id="btnExtra">
+ <a target="blank" href="https://www.gmail.com"> <button type="button" id="btnSend" onclick="functionSend()"> Enviar </button></a>
+  <button type="button" id="btnCopy" onclick="functionCopy()"> Copiar </button>
+</div>
+</div>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
+    
   </body>
 </html>
