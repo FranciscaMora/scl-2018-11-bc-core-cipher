@@ -1,6 +1,23 @@
-body{
-    background-image: url("file:///home/laboratoriad310/Escritorio/LaboratoriaFran/cifrado%20cesar/16202801366_5cabe1beea_b.jpg")
+*{
+    margin:0px;
 }
+body{
+    background-color:#FFDFD3;
+}
+
+#links{
+    background-color: rgb(85, 72, 97);
+    height: 5%;
+    text-align: right;
+    margin-top:130px;
+
+}
+
+#links p{
+    display: inline-block;
+    text-align: left;
+}
+
 .intro{
     font-family: 'Josefin Slab', serif;
     width:50%;
