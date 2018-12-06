@@ -1,8 +1,8 @@
 window.onload = () => {
     /*oculta pageOne */
     document.getElementById("pageOne").style.display = "none";
-    document.getElementById("instructions").style.display = "none";
-    document.getElementById("recomendations").style.display = "none";
+    document.getElementById("instructions1").style.display = "none";
+    document.getElementById("intro2P").style.display = "none";
 
 
 }
@@ -14,7 +14,7 @@ window.onload = () => {
 document.getElementById("btnInstructions").addEventListener("click", (evento) => {
     evento.preventDefault();
     document.getElementById("pageZero").style.display = "none";
-    document.getElementById("instructions").style.display = "block";
+    document.getElementById("intro2P").style.display = "block";
     document.getElementById("btnStart2").style.display = "none";
 })
 /*oculta página inicial al clickear botón */
@@ -22,15 +22,36 @@ document.getElementById("btnStart").addEventListener("click", (evento) => {
     evento.preventDefault();
     document.getElementById("pageZero").style.display = "none";
     document.getElementById("pageOne").style.display = "block";
-    document.getElementById("instructions").style.display = "none";
+    document.getElementById("instructions1").style.display = "none";
+    document.getElementById("intro2P").style.display="none";
 })
 
+document.getElementById("btnSomos").addEventListener("click",(evento)=>{
+    evento.preventDefault();
+    document.getElementById("pageOne").style.display="none";
+    document.getElementById("pageZero").style.display="none";
+    document.getElementById("instructions1").style.display="block";
+});
 document.getElementById("btnStart2").addEventListener("click", (evento) => {
     evento.preventDefault();
-    document.getElementById("instructions").style.display = "none";
+    document.getElementById("instructions1").style.display = "none";
     document.getElementById("pageOne").style.display = "block";
 
 })
+
+document.getElementById("btnStart3").addEventListener("click",(evento)=>{
+    evento.preventDefault();
+    document.getElementById("intro2P").style.display="none";
+    document.getElementById("pageOne").style.display="block";
+
+})
+
+document.getElementById("instrucciones9").addEventListener("click",(evento)=>{
+    evento.preventDefault();
+    document.getElementById("instructions1").style.display="none";
+    document.getElementById("intro2P").style.display="block";
+})
+
 
 
 
