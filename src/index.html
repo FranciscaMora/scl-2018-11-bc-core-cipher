@@ -45,14 +45,13 @@
   <div id="instructions1">
     <h1 class="title2">Nuestro objetivo. </h1>
     <p class="intro"> El acceso a productos de salud reproductiva (comos los anticonceptivos y el aborto con
-      medicamentos)y a la información confiable empodera a las mujeres que comparten y a las mujeres que reciben el
-      conocimiento.
+      medicamentos)y a la información confiable empodera a las mujeres que comparten conocimiento y a quienes la reciben.
       Es por eso que las feministas de todo el mundo están cooperando para poner éstos en manos de las mujeres, donde
       deberían estar.
       <br>
-      Como sabemos que la situacion actual no permite la libre comunicacion entre mujeres y organizaciones abortistas
+      Como sabemos que la situación actúal no permite la libre comunicación entre organizaciones abortistas y las personas que requieren de su ayuda
       es que te ofrecemos <strong>Para Las Amigas</strong>, una AppWeb que permite cifrar y descifrar mensajes con el
-      fin de mantener la confidencialidad y seguridad de las partes que aportan a la libertad de derechos
+      fin de mantener en resguardo la confidencialidad y seguridad de las partes que aportan a la libertad de derechos
       reproductivos.
     </p>
     <button type="button" class="btn" id="instrucciones9">Instrucciones</button>
@@ -61,16 +60,17 @@
 
 
   <div id="intro2P">
-    <h1>¿Como funciona?</h1>
-    <h3>¡Muy facil!</h3>
-    <p>Encontraras un cuadro de texto donde podras ingresar tu mensaje,ademas de tener la opcion de elegir la
-      dificultad de cifrado.
-      Luego, podras elegir entre los botones <strong>Cifrar</strong> y <strong>Descifrar</strong> dependiendo de tu
+    <h1>¿Cómo funciona?</h1>
+    <h3>¡Muy fácil!</h3>
+    <p>Encontrarás un cuadro de texto donde podrás ingresar tu mensaje,además de tener la opción de elegir la
+      dificultad de cifrado(desplazamiento de las letras).
+      Luego, podrás elegir entre los botones <strong>Cifrar</strong> y <strong>Descifrar</strong> dependiendo de tu
       necesidad.
-      Para finalizar, tendras las opciones de <strong>Copiar</strong> y <strong>Enviar por correo electronico.</strong>
+      Para finalizar, tendrás las opciones de <strong>Copiar</strong> y <strong>Enviar por correo electronico.</strong>
       <br>
-      <i>Para Las Amigas</i> puede traducir todos los mensajes que incluyan datos alfabeticos desde la A, hasta la
-      Z a excepcion de la Ñ.Además, no soporta valores de puntuacion como :;,.-_¿!?¡*+ entre otros
+      <i>Para Las Amigas</i> puede traducir todos los mensajes que incluyan datos alfabéticos desde la A hasta la
+      Z, a excepcion de la Ñ. Además, no soporta valores de puntuacion como :;,.-_¿!?¡*+ entre otros.
+        Como recomendación, recuerda el nivel de dificultad elegido ya que necesitarás usarlo cuando quieras volver a cifrar/descifrar el mensaje ingresado.
     </p>
     <button type="button" id="btnStart3">Comenzar</button>
   </div>
@@ -79,34 +79,34 @@
 
   <!--Botón que da paso a pageOne-->
 
-  
+
   <div>
-  <button type="button" id="btnHome"> Volver a inicio</button>
-  <div id="pageOne">
+    <button type="button" id="btnHome" > Volver a inicio</button>
+    <div id="pageOne">
 
-    <h1 id="letStart">¡Comencemos!</h1>
-    <br>
-    <div id="offset">
-      <label for="levels">Dificultad</label>
-      <input type="number" id="difficulty" class="offsetBox" name="levels" min="1">
-    </div>
-    <br>
-    <label for="code">Ingresa tu texto</label>
-    <input type="text" placeholder="Ingresa tu texto" maxlength="1000" id="codeBox" class="box">
-    <button type="button" id="btnCode"> Codificar </button>
-    <button type="button" id="btnDecode"> Decodificar </button>
-    <label for="decode">Traducción</label>
-    <input type="text" id="decodeBox" class="box">
-    <br>
+      <h1 id="letStart">¡Comencemos!</h1>
+      <br>
+      <div id="offset">
+        <label for="levels">Dificultad</label>
+        <input type="number" id="difficulty" class="offsetBox" name="levels" min="1">
+      </div>
+      <br>
+      <label for="code"></label>
+      <input type="text" placeholder="Ingresa tu texto" maxlength="1000" id="codeBox" class="box">
+      <button type="button" id="btnCode"> Codificar </button>
+      <button type="button" id="btnDecode"> Decodificar </button>
+      <label for="decode"></label>
+      <input type="text" placeholder="Aquí aparecerá tu texto traducido" id="decodeBox" class="box" >
+      <br>
 
-    <br>
-    <button type="button" id="clear">Limpiar</button>
-    <div id="btnExtra">
-      <a target="blank" href="https://www.gmail.com"> <button type="button" id="btnSend" onclick="functionSend()">
-          Enviar </button></a>
-      <button type="button" id="btnCopy" onclick="functionCopy()"> Copiar </button>
+      <br>
+      <button type="button" id="clear">Limpiar</button>
+      <div id="btnExtra">
+        <a target="blank" href="https://www.gmail.com"> <button type="button" id="btnSend" onclick="functionSend()">
+            Enviar </button></a>
+        <button type="button" id="btnCopy" onclick="functionCopy()"> Copiar </button>
+      </div>
     </div>
-  </div>
   </div>
   <script src="cipher.js"></script>
   <script src="index.js"></script>
