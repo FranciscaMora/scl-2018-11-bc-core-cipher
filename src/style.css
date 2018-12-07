@@ -1,0 +1,144 @@
+*{
+    margin:0px;
+}
+body{
+    background-image:url("file:///home/laboratoriad310/Escritorio/LaboratoriaFran/Estudio/Proyecto1/scl-2018-11-bc-core-cipher/src/background.jpg");
+    background-position: top;
+    background-size: auto;
+    width:100%;
+    height: 100%;
+    background-attachment: fixed;
+}
+
+#instructions1{
+    
+    width:70%;
+    height:70%;
+    background-color: gray;
+    padding: 18px;
+    color: black;
+    opacity: 0.8;
+    margin-left:190px;
+    margin-top:150px;
+    
+
+}
+
+#intro2P{
+    width:70%;
+    height:70%;
+    background-color: gray;
+    padding: 18px;
+    color: black;
+    opacity: 0.8;
+    margin-left:190px;
+    margin-top:150px;
+}
+#mainTitle{
+    font-family: 'Anton', sans-serif;
+    text-align: left;
+    margin-top: 200px;
+    font-size: 28px;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+
+}
+
+#slogan{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: #014706;
+}
+#botonInicio{
+    margin-left: 2px;
+    margin-top: 16px;
+}
+
+#btnSomos{
+    margin-left:43px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(136, 78, 160);
+    border-color:rgb(74, 35, 90);
+    width: 160px;
+    height: 40px;
+    text-shadow: 1px 1px darkgreen;
+    box-shadow: 2px 2px 2px black;
+    font-size: 16px;
+    }
+
+
+#btnInstructions{
+    margin-left: 28px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(136, 78, 160);
+    border-color:rgb(74, 35, 90);
+    width: 160px;
+    height: 40px;
+    text-shadow: 1px 1px darkgreen;
+    box-shadow: 2px 2px 2px black;
+    font-size: 19px;
+    }
+
+#btnStart{
+    margin-left: 28px;
+    border-radius: 10px;
+    color: white;
+    background-color:rgb(30, 132, 73);
+    border-color: rgb(20, 90, 50);
+    width: 180px;
+    height: 50px;
+    text-shadow: 1px 1px darkgreen;
+    box-shadow: 2px 2px 2px black;
+    margin-left: 959px;
+    margin-top: -9px;
+    font-size: 19px;
+}
+
+#links1{
+    margin-top: 0px;
+    margin-left: 197px;
+    display: inline;
+
+
+}
+
+#links{
+    margin-top:180px;
+
+}
+
+
+#pageOne{
+    width:70%;
+    height:70%;
+    background-color: gray;
+    padding: 18px;
+    color: black;
+    opacity: 0.8;
+    margin-left:190px;
+    margin-top:150px;
+}
+
+#codeBox{
+    width: 400px;
+    height: 100px;
+}
+
+#decodeBox{
+    width:400px;
+    height:100px;
+    margin-left: 132px;
+    margin-top: 60px;
+}
+
+#btnHome{
+    margin-top: 5px;
+    margin-right: 85%;
+}
+
+#letStart{
+    text-align: center;
+}

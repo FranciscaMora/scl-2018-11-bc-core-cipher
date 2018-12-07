@@ -3,6 +3,9 @@ window.onload = () => {
     document.getElementById("pageOne").style.display = "none";
     document.getElementById("instructions1").style.display = "none";
     document.getElementById("intro2P").style.display = "none";
+    document.getElementById("btnHome").style.display = "none";
+
+
 
 
 }
@@ -15,7 +18,7 @@ document.getElementById("btnInstructions").addEventListener("click", (evento) =>
     evento.preventDefault();
     document.getElementById("pageZero").style.display = "none";
     document.getElementById("intro2P").style.display = "block";
-    document.getElementById("btnStart2").style.display = "none";
+    document.getElementById("links").style.display = "none";
 })
 /*oculta página inicial al clickear botón */
 document.getElementById("btnStart").addEventListener("click", (evento) => {
@@ -23,33 +26,44 @@ document.getElementById("btnStart").addEventListener("click", (evento) => {
     document.getElementById("pageZero").style.display = "none";
     document.getElementById("pageOne").style.display = "block";
     document.getElementById("instructions1").style.display = "none";
-    document.getElementById("intro2P").style.display="none";
+    document.getElementById("intro2P").style.display = "none";
+    document.getElementById("links").style.display = "none";
+    document.getElementById("btnHome").style.display = "block";
+
 })
 
-document.getElementById("btnSomos").addEventListener("click",(evento)=>{
+document.getElementById("btnSomos").addEventListener("click", (evento) => {
     evento.preventDefault();
-    document.getElementById("pageOne").style.display="none";
-    document.getElementById("pageZero").style.display="none";
-    document.getElementById("instructions1").style.display="block";
+    document.getElementById("pageOne").style.display = "none";
+    document.getElementById("pageZero").style.display = "none";
+    document.getElementById("instructions1").style.display = "block";
+    document.getElementById("links").style.display = "none";
 });
 document.getElementById("btnStart2").addEventListener("click", (evento) => {
     evento.preventDefault();
     document.getElementById("instructions1").style.display = "none";
     document.getElementById("pageOne").style.display = "block";
+    document.getElementById("links").style.display = "none";
+    document.getElementById("btnHome").style.display = "block";
+
 
 })
 
-document.getElementById("btnStart3").addEventListener("click",(evento)=>{
+document.getElementById("btnStart3").addEventListener("click", (evento) => {
     evento.preventDefault();
-    document.getElementById("intro2P").style.display="none";
-    document.getElementById("pageOne").style.display="block";
+    document.getElementById("intro2P").style.display = "none";
+    document.getElementById("pageOne").style.display = "block";
+    document.getElementById("btnHome").style.display = "block";
+
+
 
 })
 
-document.getElementById("instrucciones9").addEventListener("click",(evento)=>{
+document.getElementById("instrucciones9").addEventListener("click", (evento) => {
     evento.preventDefault();
-    document.getElementById("instructions1").style.display="none";
-    document.getElementById("intro2P").style.display="block";
+    document.getElementById("instructions1").style.display = "none";
+    document.getElementById("intro2P").style.display = "block";
+    document.getElementById("links").style.display = "none";
 })
 
 
@@ -59,6 +73,10 @@ document.getElementById("btnHome").addEventListener("click", (evento) => {
     evento.preventDefault();
     document.getElementById("pageOne").style.display = "none";
     document.getElementById("pageZero").style.display = "block";
+    document.getElementById("intro2P").style.display = "none";
+    document.getElementById("instructions1").style.display = "none";
+    document.getElementById("btnHome").style.display = "none";
+    document.getElementById("links").style.display = "block";
     document.getElementById("codeBox").value = "";
     document.getElementById("decodeBox").value = "";
 })
