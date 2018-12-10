@@ -7,6 +7,12 @@ window.cipher = {
             if (ascii === 32) {
                 result += " "
                 continue;
+            }else if (code[i] === "ñ"){
+                    result +="ñ"
+                    continue;
+            }else if(code[i] ==="Ñ"){
+                result +="Ñ"
+                continue;
             }
             let formula = ((ascii - 65 + parseInt(offset)) % 26) + 65;
             let nuevoAscii = String.fromCharCode(formula);
@@ -26,6 +32,13 @@ window.cipher = {
             let asciiD = newCodeD.charCodeAt(i);
             if (asciiD === 32) {
                 resultado2 += " "
+                continue;
+            }else if (decode[i] ==="ñ"){
+                resultado2 += "ñ"
+                continue;
+            }
+            else if(decode[i] ==="Ñ"){
+                resultado2 +="Ñ"
                 continue;
             }
             let formula = ((asciiD - 90 - parseInt(offset)) % 26) + 90;
