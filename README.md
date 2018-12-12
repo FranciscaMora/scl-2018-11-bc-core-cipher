@@ -1,34 +1,44 @@
-# scl-2018-11-bc-core-cipher
+# Para Las Amigas
 Cipher
-﻿# Para Las Amigas
+﻿# scl-2018-11-bc-core-cipher
 
+**Para Las Amigas** es una interfaz de cifrado de texto que utiliza el método Caesar Cipher.
+Podrás cifrar y descifrar mensajes, además de tener la opción de enviar por e-mail y/o copiar dicho mensaje para posteriormente utilizarlo en otras plataformas.
 
 ![Inicio-Portada](https://oasisfm.cl/oasisfm/site/artic/20180725/imag/foto_0000000120180725185140.jpg)
 
 
-El acceso a productos de salud reproductiva (comos los anticonceptivos y el aborto con medicamentos)y a la información confiable empodera a las mujeres que comparten conocimiento y a quienes la reciben. Es por eso que las feministas de todo el mundo están cooperando para poner éstos en manos de las mujeres, donde deberían estar.  
-Como sabemos que la situación actúal no permite la libre comunicación entre organizaciones abortistas y las personas que requieren de su ayuda es que te ofrecemos **Para Las Amigas**,  una interfaz de cifrado de texto, con método Cifrado César, que permite codificar y decodificar mensajes con el fin de mantener en resguardo la seguridad y confidencialidad entre las partes que interactúan en el acceso a métodos abortivos  por parte de colectivos feministas.
-
 # La necesidad de una comunicación cifrada.
 
-**Para Las Amigas** llega a suplir la necesidad de comunicarse en cifrado.
+El acceso a productos de salud reproductiva (comos los anticonceptivos y el aborto con medicamentos)y a la información confiable empodera a las mujeres que comparten conocimiento y a quienes la reciben. Es por eso que las feministas de todo el mundo están cooperando para poner éstos en manos de las mujeres, donde deberían estar.  
+Como sabemos que la situación actúal no permite la libre comunicación entre organizaciones abortistas y las personas que requieren de su ayuda es que presentamos: **Para Las Amigas**,  una interfaz de cifrado de texto con el fin de mantener en resguardo la seguridad y confidencialidad entre las partes que interactúan en el acceso a métodos abortivos  por parte de colectivos feministas.
+
 Actualmente los colectivos feministas que facilitan la información sobre aborto, deben hacerlo a escondidas y con métodos que ponen en riesgo la integridad de sus integrantes, por lo que al acceder a una interfaz de cifrado y descifrado les permite el libre intercambio de conocimiento de forma cómoda y segura para todas.
 
+﻿# ¿Quién usa **Para Las Amigas**
 
-# Cifrado César
+*Colectivos feministas
+*ONGs que facilitan el acceso al aborto con medicamentos.
+*Mujeres que necesiten información y/o acceso a diversos métodos de forma segura.
+
+![caeser-quienes_somos](https://raw.githubusercontent.com/FranciscaMora/scl-2018-11-bc-core-cipher/master/src/img/inicio_quienes_somos.gif)
 
 
-![caeser-cipher](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Caesar3.svg/2000px-Caesar3.svg.png)
 
-El cifrado césar es una de las técnicas más simples para cifrar un mensaje. Es un tipo de cifrado por sustitución, es decir que cada letra del texto original es reemplazada por otra que se encuentra un número fijo de posiciones (desplazamiento) más adelante en el mismo alfabeto.
+# ¿Cómo  se usa?
 
-Por ejemplo, si usamos un desplazamiento (_offset_) de 3 posiciones:
 
-- La letra A se cifra como D.
-- La palabra CASA se cifra como FDVD.
-- Alfabeto sin cifrar: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
-- Alfabeto cifrado: D E F G H I J K L M N O P Q R S T U V W X Y Z A B C
-- 
+Encontrarás un cuadro de texto donde podrás ingresar tu mensaje,además de tener la opción de elegir la
+dificultad de cifrado(desplazamiento de las letras). Luego, podrás elegir entre los botones *Cifrar* y *Descifrar* dependiendo de tu necesidad. 
+
+![caeser-code](https://raw.githubusercontent.com/FranciscaMora/scl-2018-11-bc-core-cipher/src/img/cipher_offset_codificar.gif)
+
+
+Para finalizar, tendrás las opciones de *Copiar* y *Enviar por correo electronico*.
+
+Para mayor información, puedes ingresar a "Instrucciones".
+
+![caeser-instructions](https://raw.githubusercontent.com/FranciscaMora/scl-2018-11-bc-core-cipher/master/src/img/inicio_instrucciones.gif)
 
 # Prototipado
 
@@ -39,6 +49,41 @@ Inicialmente, el wire-flow distaba bastante del final:
 
 Lo que dificultaba el comprender y utililzar la interfaz de forma óptima, por lo que se llegó a una versión más simple y amigable con el usuario:
 ![prototipado.imagen2](https://www.pastepic.xyz/images/2018/12/07/WhatsApp-Image-2018-12-07-at-09.30.50139baaa0745e0028.jpg)
+
+
+
+#Test de Usuario
+
+Esta versión fue testeada con usuarios que reportaron lo siguiente:
+
+﻿#Usuario A  // Mujer|48 años|Ocupación: Supervisora tienda retail
+*Comienza sin leer instrucciones.
+*Se confunde por frase "Ingresa tu texto".
+*Dificultad para cifrar y decifrar.
+
+﻿#Usuario B // Mujer|23 años|Ocupación: Kinesióloga
+*Lee instrucciones antes de comenzar.
+*Se confunde con palabra "Dificultad".
+
+﻿#Usuario C // Hombre|19 años|Ocupación: Estudiante
+*Comienza sin leer instrucciones.
+*Se confunde con palabra "Dificultad".
+*Vuelve a pantalla de inicio y lee isntrucciones.
+*Cifra y descifra de forma óptima, más no efectiva.
+
+﻿#Usuario D // Hombre|23 años|Ocupación: Dueño de casa.
+*Comienza sin leer instrucciones.
+*Cifra y descifra de forma óptima,más no efectiva.
+*Vuelve a pantalla de inicio y lee isntrucciones.
+*Cifra y descifra de forma correcta.
+
+
+Puntos a considerar para siguiente versión de app:
+
+*Agregar instrucciones más llamativas y de más fácil acceso.
+*Corregir botón clear (borra offset y confunde a usuario).
+*Agregar instrucciones más específicas.
+*Cambiar cuadros de traducción para hacerlos más amigables con el usuario.
 
 # Colores y Diseño
 
