@@ -2,6 +2,7 @@
     margin:0px;
 }
 body{
+<<<<<<< HEAD
     background-image:url("./background.jpg");
     background-position: top;
     background-size: auto;
@@ -235,6 +236,12 @@ body{
         background-color: rgb(136, 78, 160);
         border-color:rgb(74, 35, 90);
     }
+=======
+    background-image:url("https://raw.githubusercontent.com/FranciscaMora/scl-2018-11-bc-core-cipher/gh-pages/src/img/background.jpg");
+    background-position: top;
+    background-size: auto;
+    width:100%;
+>>>>>>> gh-pages
     height: 100%;
     background-attachment: fixed;
 }
@@ -456,4 +463,8 @@ body{
     color: white;
     background-color: rgb(136, 78, 160);
     border-color:rgb(74, 35, 90);
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> gh-pages

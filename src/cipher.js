@@ -46,11 +46,19 @@ window.cipher = {
             else if (decode[i] === "Ñ") {
                 resultado2 += "Ñ"
                 continue;
+<<<<<<< HEAD
             } else if (decode[i] === "¡") {
                 resultado2 += "¡"
                 continue;
             } else if (decode[i] === "¿") {
                 resultado2 += "¿"
+=======
+            }else if (decode[i]==="¡"){
+                resultado2+="¡"
+                continue;
+            }else if(decode[i]==="¿"){
+                resultado2+="¿"
+>>>>>>> gh-pages
                 continue;
             } else if ((decode <= 126) && (decode >= 32));
             let formula = ((asciiD - 126 - parseInt(offset)) % 94) + 126;
