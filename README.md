@@ -17,9 +17,9 @@ Actualmente los colectivos feministas que facilitan la información sobre aborto
 
 ﻿# ¿Quién usa **Para Las Amigas**
 
-*Colectivos feministas
-*ONGs que facilitan el acceso al aborto con medicamentos.
-*Mujeres que necesiten información y/o acceso a diversos métodos de forma segura.
+* Colectivos feministas
+* ONGs que facilitan el acceso al aborto con medicamentos.
+* Mujeres que necesiten información y/o acceso a diversos métodos de forma segura.
 
 ![caeser-quienes_somos](https://raw.githubusercontent.com/FranciscaMora/scl-2018-11-bc-core-cipher/master/src/img/inicio_quienes_somos.gif)
 
@@ -56,34 +56,38 @@ Lo que dificultaba el comprender y utililzar la interfaz de forma óptima, por l
 
 Esta versión fue testeada con usuarios que reportaron lo siguiente:
 
-﻿#Usuario A  // Mujer|48 años|Ocupación: Supervisora tienda retail
-*Comienza sin leer instrucciones.
-*Se confunde por frase "Ingresa tu texto".
-*Dificultad para cifrar y decifrar.
+﻿#Usuario A  Mujer|48 años|Ocupación: Supervisora tienda retail
 
-﻿#Usuario B // Mujer|23 años|Ocupación: Kinesióloga
-*Lee instrucciones antes de comenzar.
-*Se confunde con palabra "Dificultad".
+* Comienza sin leer instrucciones.
+* Se confunde por frase "Ingresa tu texto".
+* Dificultad para cifrar y decifrar.
 
-﻿#Usuario C // Hombre|19 años|Ocupación: Estudiante
-*Comienza sin leer instrucciones.
-*Se confunde con palabra "Dificultad".
-*Vuelve a pantalla de inicio y lee isntrucciones.
-*Cifra y descifra de forma óptima, más no efectiva.
+﻿#Usuario B Mujer|23 años|Ocupación: Kinesióloga
 
-﻿#Usuario D // Hombre|23 años|Ocupación: Dueño de casa.
-*Comienza sin leer instrucciones.
-*Cifra y descifra de forma óptima,más no efectiva.
-*Vuelve a pantalla de inicio y lee isntrucciones.
-*Cifra y descifra de forma correcta.
+* Lee instrucciones antes de comenzar.
+* Se confunde con palabra "Dificultad".
+
+﻿#Usuario C Hombre|19 años|Ocupación: Estudiante
+
+* Comienza sin leer instrucciones.
+* Se confunde con palabra "Dificultad".
+* Vuelve a pantalla de inicio y lee isntrucciones.
+* Cifra y descifra de forma óptima, más no efectiva.
+
+﻿#Usuario D Hombre|23 años|Ocupación: Dueño de casa.
+
+* Comienza sin leer instrucciones.
+* Cifra y descifra de forma óptima,más no efectiva.
+* Vuelve a pantalla de inicio y lee isntrucciones.
+* Cifra y descifra de forma correcta.
 
 
 Puntos a considerar para siguiente versión de app:
 
-*Agregar instrucciones más llamativas y de más fácil acceso.
-*Corregir botón clear (borra offset y confunde a usuario).
-*Agregar instrucciones más específicas.
-*Cambiar cuadros de traducción para hacerlos más amigables con el usuario.
+* Agregar instrucciones más llamativas y de más fácil acceso.
+* Corregir botón clear (borra offset y confunde a usuario).
+* Agregar instrucciones más específicas.
+* Cambiar cuadros de traducción para hacerlos más amigables con el usuario.
 
 # Colores y Diseño
 
