@@ -139,7 +139,6 @@ body{
 }
 
 #links1{
-    margin-top: 0px;
     margin-left: 197px;
     display: inline;
 
@@ -227,8 +226,5 @@ body{
     color: white;
     background-color: rgb(136, 78, 160);
     border-color:rgb(74, 35, 90);
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> gh-pages
+
