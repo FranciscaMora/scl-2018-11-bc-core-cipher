@@ -1,17 +1,11 @@
-<<<<<<< HEAD
-=======
 # scl-2018-11-bc-core-cipher
 Cipher
->>>>>>> gh-pages
 ﻿# Para Las Amigas
 
 
 ![Inicio-Portada](https://oasisfm.cl/oasisfm/site/artic/20180725/imag/foto_0000000120180725185140.jpg)
-<<<<<<< HEAD
-=======
 
 
->>>>>>> gh-pages
 El acceso a productos de salud reproductiva (comos los anticonceptivos y el aborto con medicamentos)y a la información confiable empodera a las mujeres que comparten conocimiento y a quienes la reciben. Es por eso que las feministas de todo el mundo están cooperando para poner éstos en manos de las mujeres, donde deberían estar.  
 Como sabemos que la situación actúal no permite la libre comunicación entre organizaciones abortistas y las personas que requieren de su ayuda es que te ofrecemos **Para Las Amigas**,  una interfaz de cifrado de texto, con método Cifrado César, que permite codificar y decodificar mensajes con el fin de mantener en resguardo la seguridad y confidencialidad entre las partes que interactúan en el acceso a métodos abortivos  por parte de colectivos feministas.
 
@@ -69,8 +63,3 @@ https://trello.com/b/BBEE65g9
 
 https://FranciscaMora.github.io/scl-2018-11-bc-core-cipher
 
-
-<<<<<<< HEAD
-
-=======
->>>>>>> gh-pages
